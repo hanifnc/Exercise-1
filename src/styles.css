@@ -1,0 +1,34 @@
+body {
+  background: linear-gradient(-45deg, #00e1ed, #f37bfc);
+}
+.App {
+  background-image: linear-gradient(-45deg, #00e1ed, #f37bfc);
+  height: 500px;
+  width: 900px;
+  top: 50%;
+  left: 20%;
+  text-align: center;
+  position: fixed;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 300px 0px 300px 0px;
+  box-shadow: 0px 20px 30px #2f2f30;
+}
+
+.text {
+  margin-left: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 90px;
+  display: inline-flex;
+}
+
+.Foto {
+  float: left;
+  border-radius: 100px;
+  border: 3px solid white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Contact {
+}
